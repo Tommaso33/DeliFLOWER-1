@@ -1,275 +1,390 @@
-/*CSS FOR HOMEPAGE*/
+/*CSS*/
 
-/*HEADER*/
+body	{
+	background: #FFFFFF; ;
+	color: #000000;
+	font-family: 'Roboto', serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
 
-header{
-	height: 464px;
-	background : url("img/HOMEPAGE1.PNG");
-	width: 1910px;
-	margin-top: -10px;
-	margin-left: -10px;
+/* Main title */
+h1	{
+	font-family: 'Indie Flower', cursive;
+	color: black;
+	font-size: 72px;
+	font-weight: 400;
+}
+
+
+/* Event */
+h2	{
+	font-family: 'Roboto';
+	color: #000000;
+	font-size: 32px;
+	font-weight: 500;
 
 }
 
+/* Subtitle */
+h3	{
+	font-family: "Roboto";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+h4 {
+	font-family: "Roboto";
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+/* link */
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #000000;
+	font-weight: 500;
+	font-size: 16px;
+	}	
+
+.btn {
+	width: 200px;
+	height: 50px;
+	background-color: red;
+}
+
+
+/* btn events */
+.btn-grey {
+	background-color: rgb(201,201,201);
+	color: #090909;
+	padding: 0px;
+	border-radius: 0px;
+	width: 280px;
+	height: 54px;
+	margin: 40px 0px 0px 460px;
+	float: left;
+
+}
+
+
+/* card */
+.cards{
+	margin: 10px;
+	padding: 10px;
+}
+
+
+.card-bouquets {
+	width: 400px;
+	height: 240px;
+	margin: 240px 20px 0px 20px;
+	font-family: Roboto;
+	font-size: 32px;
+	font-weight:500px;
+	text-align: left;
+	float: left;
+}
+
+.card-bouquets img{
+	width: 400px;
+	height: 240px;
+}
+
+.card-bouquets2 {
+	width: 400px;
+	height: 240px;
+	margin: 40px 0px 0px 460px;
+	font-family: Roboto;
+	font-size: 32px;
+	font-weight: 500px;
+	text-align: left;
+	float: left;
+}
+
+.text-card {
+	position: relative;
+	margin-top: -46px;
+	background-color: #E7DDD3
+}
+
+.TitleFlower {
+	position: absolute;
+	left: 67px;
+	top: 401px;
+}
+
+.FlowerDescription {
+	position: absolute;
+	left: 67px;
+	top: 457px;
+	width: 350px;
+}
+
+.FlowerDescription body {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: 'Roboto', serif;
+	font-size: 16px;
+	font-weight: lighter;
+	left: 67px;
+	top: 457px;
+}
+
+.info {
+	position: absolute;
+	left: 67px;
+	top: 700px;
+}
+
+.info2 {
+	position: absolute;
+	left: 67px;
+	top: 720px;
+}
+
+.info3 {
+	position: absolute;
+	left: 67px;
+	top: 740px;
+}
+
+.comments {
+	position: absolute;
+	left: 67px;
+	top: 900px;
+}
+
+.grey-comments {
+	background-color: #EDEDED;
+	color: black;
+	padding: 0px;
+	border-radius: 0px;
+	width: 356px;
+	height: 50px;
+	margin: 40px 0px 0px 460px;
+}
+
+
+.bigcard{
+	margin: 10px;
+	padding : 30px;
+}
+
+.bigcard-bouquet{
+	width: 593px;
+	height: 474px;
+	border-radius: 44px;
+	left: 652px;
+	top: 261px;
+}
+
+.bigcard-bouquet img{
+	width: 593px;
+	height: 474px;
+
+}
+
+
+.price {
+	position: absolute;
+	left: 854px;
+	top: 735px;
+}
+
+.ratings {
+	position: absolute;
+	left: 681px;
+	top: 782px;
+}
+
+.btn-beige {
+	background-color: rgb(232, 222, 210);
+	color: #090909;
+	padding: 0px;
+	border-radius: 0px;
+	width: 280px;
+	height: 54px;
+	margin: 40px 0px 0px 460px;
+	float: left;
+	text-align: center;
+}
+
+.btn-beige a {
+	text-align: center;
+	font-family: "Roboto";
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* avatar */
+.avatar {
+	border-radius: 50%;
+	width: 48px;
+	height: 48px;
+}
+
+nav {
+	width: 100%;
+	height:100px;
+	line-height;
+}
+
+.navlist {
+
+}
+
+.navlist li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 100px;
+}
+
+.navlist li a  {
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	padding: 0 20px;
+}
+
+/*CSS FOR EVENTS PAGE*/
+
+
+
+
+/* GENERAL */
+
+.PostalCode p{
+
+	position: absolute;
+	width: 355px;
+	height: 38px;
+	margin-left: 20px;
+	margin-top: 100px;
+}
+
+.TypeEvent p{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 175px;
+}
+
+
+
+
+/* HEADER */
+
+header{
+	height: 206px;
+	background : url("images/Header.png") center;
+	width: 1368px;
+	margin-top: -10px;
+	margin-left: -10px;
+}
 
 header h1{
 	font-family: Indie Flower;
-	font-size: 100px;
+	font-size: 72px;
 	font-weight: 400;
-	margin: 0px 0px 0px 220px;
-	padding-top:220px;
-	padding-left: 580px;
+	margin: 10px 400px 108px 246px;
+	padding-bottom: 13px;
 }
 
 
-p1 { 
+p { 
 	font-family: Roboto;
-	font-weight: 200;
-	font-size: 26px;
-	padding-left: 720px;
+	font-weight: 300;
+	font-size: 24px;
+	margin: -130px 0px 100px 246px;
 }
 
-
-p2 {
-	font-family: Roboto; 
-	margin-left: 720px;
-	font-size: 26px
+#logo{
+	position: absolute;
+	width: 202px;
+	height: 106px;
+	margin-top: 5px;
 }
-
 
 #OrangeDot{
 	position: absolute;
 	width: 48px;
 	height: 48px;
-	margin: 22px 0px 0px 1790px;
+	margin: 15px 0px 0px 1300px;
 
 }
 
-.English{
-	position: absolute;
+
+/* Events */
+
+.cards{
+	margin: 10px;
+	padding : 10px;
+
+}
+
+.Card-Event{
 	width: 400px;
-	height: 100px;
-	margin: -450px 0px 0px 1250px ;
+	height: 240px;
+	margin: 240px 20px 0px 20px ;
 	font-family: Roboto;
 	font-size: 32px;
 	font-weight: 500px;
 	text-align: center;
-	background-color: #E7DDD3
+	float: left;
+}
 
+.Card-Event img{
+	width: 400px;
+	height: 240px;
 }
 
 
-
-/*CARDS*/
-
-.Cards{
-	position: absolute;
-	width: 325px;
-	height: 100px;
-	margin: 15px 0px 0px 0px ;
+.Card-OtherEvents{
+	width: 400px;
+	height: 240px;
+	margin: 40px 0px 0px 460px ;
 	font-family: Roboto;
 	font-size: 32px;
 	font-weight: 500px;
 	text-align: center;
-	background-color: #E7DDD3;
+	float: left;
 }
 
-.Cards form input{
-	border: 1px solid #E7DDD3;
-}
-
-.Cards input{
-	color: black;
-	text-decoration: none;
-	border: none;
-	width: 325px;
-	height: 100px;
-	opacity: 10;
-	font-size: 32px
-}
-
-
-.Deliverydate{
-	position: absolute;
-	width: 325px;
-	height: 100px;
-	margin: 15px 0px 0px 344px ;
-	font-family: Roboto;
-	font-size: 32px;
-	font-weight: 500px;
-	text-align: center;
+.CardTitles{
+	position: relative;
+	margin-top: -46px;
 	background-color: #E7DDD3;
 }
 
 
-
-.Deliverydate form input{
-	border: 1px solid #E7DDD3;
-}
-
-.Deliverydate input{
-	color: black;
-	text-decoration: none;
-	border: none;
-	width: 325px;
-	height: 100px;
-	opacity: 10;
-	font-size: 32px
-}
-
-.Search{
-	position: absolute;
-	width: 325px;
-	height: 100px;
-	margin: -100px 0px 0px 344px ;
-	font-family: Roboto;
-	font-size: 32px;
-	font-weight: 500px;
-	text-align: center;
-	background-color: #E7DDD3;
-}
-/*BIG CARDS*/
-
-.AboutUs{
-	width: 800px;
-	height: 90px;
-	margin: 420px 0px 0px 0px ;
-	font-family: Roboto;
-	font-size: 32px;
-	background-color: #E7DDD3
-}
-
-.AboutUs p{
-	padding-left: 10px;
-	height: 11px;
-	font-size: 35px;
-}
-h1{
-	font-size:16px;
-	padding-left: 10px;
-}
-
-.AboutUs p3{
-	font-size: 18px;
-	text-decoration: underline;
-	font-weight: bold;
-	color: black;
-}
-
-.AboutUSPIC img{
-
-	height: 300px;
-	margin: 0px 0px -424px 100px
-}
-
-/*COVID19SITUATION*/
-
-.COVID19SITUATION{
-	width: 810px;
-	height: 90px;
-	margin: -124px 0px 0px 1080px ;
-	font-family: Roboto;
-	font-size: 32px;
-	background-color: #E7DDD3
-}
-
-.COVID19SITUATION p{
-	padding-left: 10px;
-	height: 11px;
-	font-size: 35px;
-}
-
-.COVID19SITUATION h1{
-	font-size:16px;
-	padding-left: 10px;
-}
-
-.COVID19SITUATION p4{
-	font-size: 18px;
-	text-decoration: underline;
-	font-weight: bold;
-	color: black;
-}
-
-}
-/* AboutUS page */
-
-.TextAboutUs{
-	width: 800px;
-	height: 90px;
-	margin: 0px 0px 0px 0px ;
-	font-family: Roboto;
-	background-color: white;
-	padding-left: 35px;
-}
-
-
-.TextAboutUs p{
-	font-size: 40px;
-	height: 11px;
-	font-weight: bold;
-}
-
-.TextAboutUs a{
-	font-size: 	10.5px;
-}
-
-
-.COVIDTEXT{
-	width: 743px;
-	height: 90px;
-	margin: -130px 0px 0px 1050px ;
-	font-family: Roboto;
-	background-color: white;
-}
-
-.COVIDTEXT p{
-	font-size: 40px;
-	font-weight: bold;
-	height: 11px;
-}
-
-.COVIDTEXT a{
-	font-size: 10.5px;
-}
-
-.OurValues{
-	width: 800px;
-	height: 90px;
-	margin: 20px 0px 0px 0px ;
-	font-family: Roboto;
-	background-color: white;
-	padding-left: 35px;
-	padding-top: 100px;
-}
-
-.OurValues p{
-	font-size: 40px;
-	font-weight: bold;
-	height: 35px;
-}
-
-ol li{
-	color: black;
-	list-style-type: none;
-}
-
-.OurValues ol{
-	font-size: 15.5px;	
-	padding-left: 5px;
-}
-
-.COVIDPICTURE img{
-	margin-left: 1095px;
-	height: 300px;
-	margin: -190px 0px 0px 1100px
-}
 
 /* Contact */
 
-.Contact {
+.Contact p{
 	font-family: Roboto;
 	position: absolute;
-	margin-left: 1200px;
-    line-height: 56px;
-}	
+	width: 484px;
+	height: 32px;
+	margin-left: 500px;
+	margin-top: 983px;
+}
+
+
+
+
+
+/*CSS FOR EVENTS PAGE */
+
+
+
+
+/*CSS FOR EVENTS PAGE */
